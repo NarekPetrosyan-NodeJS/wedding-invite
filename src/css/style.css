@@ -1,0 +1,590 @@
+@font-face {
+  font-family: "ArmHmksBebasNeue";
+  src: url("../fonts/ArmHmksBebasNeueRegular/ArmHmksBebasNeueRegular.eot");
+  src: url("../fonts/ArmHmksBebasNeueRegular/ArmHmksBebasNeueRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/ArmHmksBebasNeueRegular/ArmHmksBebasNeueRegular.woff2")
+      format("woff2"),
+    url("../fonts/ArmHmksBebasNeueRegular/ArmHmksBebasNeueRegular.woff")
+      format("woff"),
+    url("../fonts/ArmHmksBebasNeueRegular/ArmHmksBebasNeueRegular.ttf")
+      format("truetype"),
+    url("../fonts/ArmHmksBebasNeueRegular/ArmHmksBebasNeueRegular.svg")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Bainsley";
+  src: url("../fonts/Bainsley/Bainsley.eot");
+  src: url("../fonts/Bainsley/Bainsley.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Bainsley/Bainsley.woff2") format("woff2"),
+    url("../fonts/Bainsley/Bainsley.woff") format("woff"),
+    url("../fonts/Bainsley/Bainsley.ttf") format("truetype"),
+    url("../fonts/Bainsley/Bainsley.svg") format("svg");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+body {
+  background: #ece9e9;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.first_section {
+  position: relative;
+}
+
+.first_section .first {
+  position: absolute;
+  width: 100%;
+  height: 546px;
+  background: linear-gradient(95.77deg, #c2b5b5 30.81%, #675b5b 94.17%);
+  z-index: 99;
+}
+
+.first_section .second {
+  position: absolute;
+  width: 100%;
+  top: 313px;
+  height: 494px;
+  background: linear-gradient(183.4deg, #a59d9d 44.66%, #ebdfdf 103.11%);
+  z-index: 10;
+}
+
+.first_section .third {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 999;
+}
+
+#gorg {
+  width: 510px;
+}
+
+#gorg div {
+  display: none;
+}
+
+.first_section .third > .gorg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 510px !important;
+  height: 599px;
+  background: url(../img/Gorg.svg);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
+.gorg .names {
+  width: 211px;
+  text-align: center;
+  margin: 15px 0;
+  font-family: "ArmHmksBebasNeue";
+  font-weight: 400;
+  font-size: 79px;
+  line-height: 95px;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 0.16em;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.heart img {
+  margin-top: 15px;
+  width: 84px;
+  height: 76px;
+  display: block;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.second_section {
+  margin-top: 240px;
+  margin-bottom: 95px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hello {
+  font-family: "Bainsley";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 67px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #7d0000;
+}
+
+.invitation_text_1 {
+  margin: 24px 0;
+  font-family: "Bainsley";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 44px;
+  text-align: center;
+  color: #000000;
+}
+
+.invitation_text_2 {
+  max-width: 1048px;
+  font-family: "Bainsley";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.third_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 140px;
+}
+
+.header {
+  margin-top: 50px;
+  font-family: "ArmHmksBebasNeue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.13em;
+  color: #7d0000;
+}
+
+.time {
+  font-family: "ArmHmksBebasNeue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29.4925px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+}
+
+.location {
+  font-family: "Bainsley";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26.2156px;
+  line-height: 34px;
+  text-align: center;
+  color: #090909;
+}
+
+.location span {
+  font-style: italic;
+}
+
+.restaurant,
+.church {
+  width: 464px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fourth_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider {
+  width: 325px;
+  height: 1px;
+  background: #5b402c;
+}
+
+.thanks_text {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.fourth_section div {
+  font-family: "Bainsley";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 46px;
+  color: #000000;
+}
+
+.thanks_text .text {
+  margin: 0 40px;
+}
+
+.fourth_section .naxsh {
+  width: 100%;
+  height: 60px;
+}
+
+.hars_u_pesa img {
+  transition: 1s linear;
+  width: 500px;
+  align-self: flex-end;
+}
+
+.surnames {
+  margin-bottom: 90px;
+}
+
+@media screen and (max-width: 950px) {
+  .divider {
+    width: 220px;
+  }
+
+  .hars_u_pesa img {
+    transform: 1s linear;
+    width: 287px;
+  }
+
+  .first_section .third > .gorg {
+    width: 302px !important;
+    height: 332px;
+    background-size: contain;
+    align-self: flex-start;
+  }
+
+  #gorg {
+    width: 302px !important;
+  }
+
+  .gorg .names {
+    width: 125px;
+    margin: 11px 0;
+    font-size: 33px;
+    line-height: 41px;
+    letter-spacing: 0.16em;
+  }
+
+  .heart img {
+    margin-top: 11px;
+    width: 62px;
+    height: 38px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .first_section .first {
+    height: 293px;
+  }
+
+  .first_section .second {
+    top: 0;
+    height: 428px;
+  }
+
+  .second_section {
+    margin-top: 81px;
+  }
+
+  .hello {
+    font-size: 34px;
+    line-height: 47px;
+  }
+
+  .invitation_text_1 {
+    margin: 3px 0;
+    font-size: 21px;
+  }
+
+  .invitation_text_2 {
+    max-width: 1048px;
+    font-size: 25px;
+  }
+
+  .third_section {
+    flex-direction: column;
+    margin-bottom: 75px;
+  }
+
+  .third_section .naxsh img {
+    transform: rotate(90deg);
+    margin: -235px 0;
+  }
+
+  .header {
+    font-size: 27px;
+  }
+
+  .location {
+    font-size: 21.2156px;
+  }
+
+  .time {
+    font-size: 24.4925px;
+  }
+
+  .thanks_text .text {
+    margin: 0 13px;
+  }
+
+  .fourth_section div {
+    font-size: 26px;
+  }
+
+  .thanks_text {
+    margin-bottom: 0;
+  }
+
+  .surnames {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .divider {
+    width: 150px;
+  }
+
+  .third_section .naxsh img {
+    height: 437px;
+    margin: -135px 0;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .first_section .third > .gorg {
+    width: 140px !important;
+    height: 195px;
+  }
+
+  #gorg {
+    width: 140px !important;
+    height: 195px;
+  }
+
+  .hars_u_pesa img {
+    width: 170px;
+  }
+
+  .gorg .names {
+    width: 79px;
+    margin: 3px 0;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.16em;
+  }
+
+  .heart img {
+    margin-top: 7px;
+    width: 40px;
+    height: 25px;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .first_section .first {
+    height: 160px;
+  }
+
+  .first_section .second {
+    top: 0;
+    height: 250px;
+  }
+
+  .second_section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .hello {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .invitation_text_1 {
+    margin: 8px 0;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .invitation_text_2 {
+    max-width: 1048px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .location {
+    line-height: 22px;
+    font-size: 18.2156px;
+  }
+
+  .header {
+    font-size: 20px;
+    margin-top: 13px;
+  }
+  .time {
+    line-height: 40px;
+    font-size: 20.4925px;
+  }
+  .third_section .naxsh img {
+    height: 310px;
+    margin: -100px 0;
+  }
+  .fourth_section div {
+    font-size: 18px;
+    line-height: 29px;
+}
+.surnames {
+  margin-bottom: 13px;
+}
+.third_section {
+  margin-bottom: 50px;
+}
+.church, .restaurant {
+  width: 250px;
+}
+.divider {
+  width: 82px;
+}
+}
+
+.gorg {
+  -webkit-animation: bounce-in-top 2s both;
+  animation: bounce-in-top 2s both;
+}
+
+@-webkit-keyframes bounce-in-top {
+  0% {
+    -webkit-transform: translateY(-500px);
+    transform: translateY(-500px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  38% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+
+  55% {
+    -webkit-transform: translateY(-65px);
+    transform: translateY(-65px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  72% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  81% {
+    -webkit-transform: translateY(-28px);
+    transform: translateY(-28px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  90% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  95% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes bounce-in-top {
+  0% {
+    -webkit-transform: translateY(-500px);
+    transform: translateY(-500px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  38% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    opacity: 1;
+  }
+
+  55% {
+    -webkit-transform: translateY(-65px);
+    transform: translateY(-65px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  72% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  81% {
+    -webkit-transform: translateY(-28px);
+    transform: translateY(-28px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  90% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  95% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
